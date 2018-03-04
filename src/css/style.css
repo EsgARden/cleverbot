@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Billabong';
+    src: url('../fonts/Billabong.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'om';
+    src: url('../fonts/om.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'omi';
+    src: url('../fonts/omi.ttf'); /* IE9 Compat Modes */
+}
+
+
+body {
+    background-color: #51A983;
+}
+
+.title{
+    font-family: omi;
+    color:#2B97FB;
+    font-size: 100px;
+    text-align: center;
+}
+
+.chat-button{
+    color:#2B97FB;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.chat-button:hover{
+    color:rgb(85, 209, 155);
+}
+
+.landing{
+    margin-top: 30vh;
+}
